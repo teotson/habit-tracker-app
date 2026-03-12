@@ -1,12 +1,24 @@
-# Habit Tracker - Phase 2 Prototype
+# Habit Tracking Application
 
-A simple habit-tracking CLI built for Phase 2 of the portfolio assignment.  
-Implements data persistence, functional analytics, and unit testing.
+## Project Overview
+This project is a simple Habit Tracking Application developed in Python. It allows users to track daily and weekly habits and analyse their longest streaks.
 
----
+## Features
+- Track daily and weekly habits
+- Store habit data in JSON format
+- Analyse longest streaks
+- Command Line Interface (CLI)
+- Automated tests with pytest
 
-## ⚙️ Setup
+## Project Structure
+- `myapp/` - main application code
+- `fixtures/` - predefined habit data
+- `tests/` - unit tests
 
-1. **Activate the virtual environment:**
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
+## Installation
+1. Clone the repository
+2. Open the project folder
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
