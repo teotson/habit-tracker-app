@@ -1,24 +1,39 @@
 # Habit Tracking Application
 
 ## Project Overview
-This project is a simple Habit Tracking Application developed in Python. It allows users to track daily and weekly habits and analyse their longest streaks.
+This project is a simple Habit Tracking Application developed in Python. 
+It allows users to track daily and weekly habits and analyse their longest streaks.
 
 ## Features
-- Track daily and weekly habits
-- Store habit data in JSON format
+- Create and track habits
+- Support for daily and weekly habits
+- Store habit data using JSON
 - Analyse longest streaks
 - Command Line Interface (CLI)
 - Automated tests with pytest
 
 ## Project Structure
-- `myapp/` - main application code
-- `fixtures/` - predefined habit data
-- `tests/` - unit tests
+- `myapp/` – main application code
+- `fixtures/` – predefined habit data
+- `tests/` – unit tests
 
 ## Installation
-1. Clone the repository
-2. Open the project folder
-3. Install dependencies:
+Install the required dependencies:
 
-```bash
 pip install -r requirements.txt
+
+## Run the application
+
+python -m myapp.cli
+
+To compute the longest streaks:
+
+python -m myapp.cli longest_streaks
+
+## Run tests
+
+python -m pytest
+
+## Author
+Teodora Dimitrova Tsoncheva  
+Student ID: 9210487
